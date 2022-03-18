@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  height: 100vh;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+ul {
+  width: 344px;
+  height: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+
+  list-style: none;
+}
+
+.logo {
+  margin: 27px 952px 37px 25px;
+  width: 85px;
+  height: 85px;
+}
+
+.painel {
+  display: flex;
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 153px;
+}
+
+.painel > h1 {
+  position: absolute;
+  color: aliceblue;
+
+  font-size: 60px;
+}
+
+.secoes {
+  width: 702px;
+  height: 402px;
+
+  margin: 0 auto;
+}
+
+.secoes > article {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.secoes > article > img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 70px;
+}
+
+.secoes > article > h2 {
+  height: 56px;
+  font-size: 45px;
+  margin-bottom: 37px;
+}
+
+.secoes > article > p {
+  width: 702px;
+  height: 69px;
+
+  font-size: 18px;
+}
+
+.ladrilhos-container {
+  margin-top: 153px;
+  margin-bottom: 153px;
+}
+
+.ladrilhos {
+  display: grid;
+  grid-template-areas:
+    'a b c'
+    'a d d';
+}
+
+.image-1 {
+  grid-area: a;
+}
+
+.image-2 {
+  grid: b;
+}
+
+.image-3 {
+  grid-area: c;
+}
+
+.image-4 {
+  grid-area: d;
+}
+
+.contato-container {
+  display: flex;
+  margin-top: 153px;
+
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contato-container > img {
+  position: relative;
+}
+
+.contato {
+  position: absolute;
+  right: 389px;
+}
+
+.contato > h2 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.contato > p {
+  font-size: 25px;
+}
+
+.number-email {
+  margin-bottom: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer > img {
+  position: relative;
+}
+
+.aside {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.social {
+  width: 1408px;
+  height: 211px;
+  display: flex;
+  flex-direction: row;
+
+  position: absolute;
+
+  justify-content: space-between;
+
+  align-items: flex-end;
+
+  margin-right: 32px;
+}
+
+small {
+  color: aliceblue;
+  margin-left: 30px;
+  margin-bottom: 32px;
+}
+
+.social-container {
+  display: flex;
+  margin-bottom: 32px;
+
+  flex-direction: row;
+}
+
+.logo-social {
+  width: 20px;
+  height: 20px;
+}
+
+.facebook {
+  margin-right: 20px;
+}
+
+.instagram {
+  margin-left: 32px;
+}

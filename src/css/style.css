@@ -161,14 +161,15 @@ ul {
 footer {
   display: flex;
   flex-direction: column;
-}
+  position: absolute;
 
-.footer > img {
-  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .aside {
   position: absolute;
+  z-index: 1;
   display: flex;
   flex-direction: row;
 

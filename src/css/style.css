@@ -43,6 +43,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   margin: 27px 952px 37px 25px;
   width: 85px;
